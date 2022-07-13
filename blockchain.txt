@@ -1,0 +1,36 @@
+Getting started with Blockchain Development
+
+-building web application on top of blockchain
+-decentralize,transparency and flexibility,speed and effeciency,security and immutability,removal of counterpart risk,trust minimized agreements
+-browser>html/css/javascript/react>blockchain(used as backend and server meaning that we can create our business logic and save data on it)
+-smart contracts=self-executing building blocks of blockchain that are programs which are immutable
+-solidity-language used for writing smart contracts
+-infura-an ethereum node in the blockchain for personal use
+-ganache-personal blockchian for projects local
+-testing
+-dapp/decentralized web app
+-front end + smart contract
+-challenges on blockchain dev=> 1,integration with blockchain/web3/ and 
+				2,integration with wallet/private keys for transactions one of it is metamask/
+-secret recovery phrase/master key for metamask blockchain
+(they deputy skirt boat jealous bubble spend spray corn aware sleep latin)
+-testnet-are fake network that have no value but have the same functions as main net
+-block explorer/etherscan- application used to show a transactions made in the blockchain
+-gas-is a unit of computational measure that more computation a tranction uses the more gas you have to pay for it
+   -transctions made on the blockchain have to pay gas fees to node operators
+-hash-unique fixed string that is used to identify a piece of data
+-genesis block-the first block of the blockchain/has all zero hash
+-the hash must be calculated using the block#,nonce,data and previous hash in the block/one of the reasons that it is hard to tamper
+-nonce is number used once to find solution to blockchain problem
+-different peers are organized in the blockchain that have the same hash and change in data needs to be re calculated/mined to produce the same hash as the others
+ peer hashes which will cost gas
+-mining is the proces of finding solution in the blockchain problem.
+-the data is using tokens and any change in tokens will result in different hash numbers which would differentiate agaianst the other peers
+ on the blockchain so that block will be detached/exculded from the chain.
+-ethereum works on keccak256 hash algorithm
+-the private key is used for signature in a transaction which anyone later verifies the transaction hash from one public key to another public key
+ and also the signature cannot derive the private key
+-the public key is generated from the private key
+-consensus is the mechanism used to agree on state of a blockchain/nakamoto consensus
+-sybil resistance=>proof of work(pow) using mining/needs a lot of energy cause every node is racing to a new block/miners
+		 =>proof of stake(pos) uses collateral/validators/nodes randomly choose to propose a new block and validated by validators/uses less energy
